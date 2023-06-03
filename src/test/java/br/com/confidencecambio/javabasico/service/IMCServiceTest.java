@@ -8,12 +8,12 @@ import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import br.com.confidencecambio.javabasico.desafio1.service.IMCService;
+import br.com.confidencecambio.javabasico.desafio1.service.ImcService;
 
 public class IMCServiceTest {
 
 	@Autowired
-    private IMCService service;
+    private ImcService service;
 
 
     @Test

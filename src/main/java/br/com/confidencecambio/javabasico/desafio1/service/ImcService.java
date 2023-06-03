@@ -4,7 +4,7 @@ import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
 
 @Service
-public class IMCService {
+public class ImcService {
 
 
     public double calculaImc(@NonNull Double peso, @NonNull Double altura) {

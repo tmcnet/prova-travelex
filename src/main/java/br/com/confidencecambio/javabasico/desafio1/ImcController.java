@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.confidencecambio.javabasico.desafio1.service.IMCService;
+import br.com.confidencecambio.javabasico.desafio1.service.ImcService;
 
 @RestController
 public class ImcController {
 
-	private IMCService service;
+	private ImcService service;
 
-	public ImcController(final IMCService service) {
+	public ImcController(final ImcService service) {
 
 		this.service = service;
 	}
